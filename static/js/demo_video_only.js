@@ -36,6 +36,7 @@ function enable(domId) {
 
 
 function connect() {
+	easyrtc.setSocketUrl("//server-sixsteps.rhcloud.com/:8000");
     easyrtc.enableDebug(false);
     console.log("Initializing.");
     easyrtc.enableAudio(false);
